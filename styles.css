@@ -121,6 +121,15 @@ header .hero-section .cta {
       justify-content: space-around;
 }
 
+header .hero-section .cta .left-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 header .hero-section .cta .left-arrow img {
   width: 2.58vw;
 }
@@ -476,6 +485,9 @@ footer .background img {
   }
   header nav ul li {
     margin: 1em;
+  }
+  .memories header p {
+    border-left: 1px solid #707070;
   }
 }
 
