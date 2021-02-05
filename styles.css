@@ -458,6 +458,15 @@ header .hero-section .cta .cta-background {
   text-transform: uppercase;
 }
 
+footer {
+  font-size: 1vw;
+  margin-top: 2em;
+}
+
+footer .background img {
+  width: 100%;
+}
+
 @media (max-width: 520px) {
   .navbar-pattern {
     width: 135%;
