@@ -367,6 +367,10 @@ header .hero-section .cta .cta-background {
   font-size: 1.5vw;
 }
 
+.memories header p span {
+  font-family: 'Roboto', sans-serif;
+}
+
 .memories img {
   width: 100%;
 }
@@ -472,8 +476,86 @@ footer {
   margin-top: 2em;
 }
 
+footer .background {
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+}
+
 footer .background img {
   width: 100%;
+}
+
+footer .footer-content {
+  width: 40%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+footer .footer-content .logo {
+  width: 100%;
+}
+
+footer .footer-content .logo img {
+  width: 50%;
+  margin: 5em 0 4em;
+}
+
+footer .footer-content p {
+  color: white;
+  font-size: 1.4vw;
+  font-weight: 300;
+  margin-bottom: 0.3em;
+}
+
+footer .footer-content .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35%;
+  margin-top: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer-content .social-links img {
+  width: 100%;
+}
+
+footer .footer-content .social-links .insta-logo {
+  margin: 0 1.5em 0;
+}
+
+footer .footer-content .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-content .footer-links a {
+  color: white;
+  margin: 0 1em;
+}
+
+footer .footer-content .footer-links div {
+  width: 0.1vw;
+  height: 1vw;
+  background: white;
 }
 
 @media (max-width: 520px) {
